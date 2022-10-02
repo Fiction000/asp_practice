@@ -69,12 +69,14 @@
   <ItemGroup>
     <Content Include="Chap03\WebForm1.aspx" />
     <Content Include="Chap03\WebForm2.aspx" />
+    <Content Include="Chap03\Valid.aspx" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
     <Content Include="Scripts\jquery-3.6.0.slim.js" />
     <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
+    <Content Include="site.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -92,6 +94,13 @@
     </Compile>
     <Compile Include="Chap03\WebForm2.aspx.designer.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chap03\Valid.aspx.cs">
+      <DependentUpon>Valid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chap03\Valid.aspx.designer.cs">
+      <DependentUpon>Valid.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

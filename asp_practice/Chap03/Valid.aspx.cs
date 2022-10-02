@@ -13,5 +13,15 @@ namespace asp_practice.Chap03
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Label1.Text = "Valid values are entered.";
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
