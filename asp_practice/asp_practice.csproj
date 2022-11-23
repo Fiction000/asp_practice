@@ -70,6 +70,7 @@
     <Content Include="Chap03\WebForm1.aspx" />
     <Content Include="Chap03\WebForm2.aspx" />
     <Content Include="Chap03\Valid.aspx" />
+    <Content Include="Chap05\ExecuteReader.aspx" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
@@ -101,6 +102,13 @@
     </Compile>
     <Compile Include="Chap03\Valid.aspx.designer.cs">
       <DependentUpon>Valid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chap05\ExecuteReader.aspx.cs">
+      <DependentUpon>ExecuteReader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chap05\ExecuteReader.aspx.designer.cs">
+      <DependentUpon>ExecuteReader.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
